@@ -8,7 +8,7 @@ function Routers () {
     <BrowserRouter>
       <Routes>
         <Route element = {<App/>} path = '/react-gh-pages'/>
-        <Route element = {<Projects/>} path = '/projects'/>
+        <Route element = {<Projects/>} path = '/react-gh-pages/projects'/>
       </Routes>
     </BrowserRouter>
   )
