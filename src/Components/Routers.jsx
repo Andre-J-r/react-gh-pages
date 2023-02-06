@@ -7,7 +7,7 @@ function Routers () {
   return (
     <BrowserRouter>
       <Routes>
-        <Route element = {<App/>} path = '/react-gh-pages'/>
+        <Route element = {<App/>} path = '/andre-j-r.github.io/react-gh-pages/'/>
         <Route element = {<Projects/>} path = '/projects'/>
       </Routes>
     </BrowserRouter>
