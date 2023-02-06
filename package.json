@@ -1,7 +1,7 @@
 {
   "name": "new",
   "version": "0.1.0",
-  "homepage": "https://Andre-J-r.github.io/react-gh-pages",
+  "homepage": "https://andre-j-r.github.io/react-gh-pages",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
