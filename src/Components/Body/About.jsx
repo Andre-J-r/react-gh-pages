@@ -8,7 +8,7 @@ function About () {
   return (
     <AboutDiv>
     <Info>
-      Olá, eu me chamo <span style={{'color': '#64ffda'}}>André Gomes</span>, sou um desenvolvedor de software front end e construo websites e 
+      Olá, me chamo <span style={{'color': '#64ffda'}}>André Gomes</span>, sou um desenvolvedor de software front end e construo websites e 
       aplicativos que são peças fundamentais no sucesso e engajamento de produtos e serviços em um mundo
       cada vez mais digital.
       <P>Veja alguns dos meus <Link to='/projects' style={{ 'textDecoration': 'none'}}><ProjectsLink>Projetos.</ProjectsLink></Link></P>
