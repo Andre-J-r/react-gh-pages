@@ -8,7 +8,7 @@ import {Container} from './Components/AppStyle'
 function App () {
   return (
     <React.Fragment>
-      <Container style={{'background-color': 'white'}}>
+      <Container>
         <Header/>
         <Body/>
       </Container>
