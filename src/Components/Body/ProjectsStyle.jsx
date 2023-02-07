@@ -19,6 +19,10 @@ export const MacImg = styled. img`
   height: 350px;
   width: 590px;
   z-index: 0;
+  @media (max-width: 768px) {
+    height: 250px;
+    width: 440px;
+  }
 `
 export const Picture = styled.img`
   top: 22px;
@@ -27,6 +31,12 @@ export const Picture = styled.img`
   width: 445px;
   position: relative;
   z-index: 1;
+  @media (max-width: 768px) {
+    top: 20px;
+    left: 55px;
+    height: 210px;
+    width: 330px;
+  }
 `
 export const HoveredMessage = styled.p`
   color: white;
@@ -46,6 +56,9 @@ export const Description = styled.p`
   text-align: justify;
   margin: 120px 0 0 250px;
   width: 400px;
+  @media (max-width: 768px) {
+    margin: 0 20px 0 190px;
+  }
 `
 export const Project = styled.div`
   display: flex;
@@ -53,6 +66,9 @@ export const Project = styled.div`
   margin-bottom: 400px;
   width: 100%;
   height: 100%;
+  @media (max-width: 768px) {
+    margin-top: 50px;
+  }
 `
 
 export const ProjectsContainer = styled.div`
@@ -67,4 +83,8 @@ export const Title = styled.p`
   color: #64ffda;
   font-size: 36px;
   text-align: center;
+
+  @media (max-width: 768px) {
+    margin-top: 150px;
+  }
 `

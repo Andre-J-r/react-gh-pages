@@ -1,5 +1,5 @@
 import React from 'react'
-import {ExpertiseDiv, Jobs, JobsLine, KnowledgeLine, Brain, Title} from './ExpertiseStyle'
+import {ExpertiseDiv, Jobs, JobsLine, KnowledgeDiv, KnowledgeLine, Brain, Title} from './ExpertiseStyle'
 
 function Expertise () {
   return (
@@ -13,7 +13,7 @@ function Expertise () {
         <JobsLine> 2018 - 2020 - MidiaTix</JobsLine>
         <JobsLine> 2017 - 2018 - IGN</JobsLine>
       </Jobs>
-      <div style={{'text-align' : 'center', 'margin':'0 0 0 70px'}}>
+      <KnowledgeDiv>
           <p style={{'color': '#c90de2', 'font-size': '25px', 'font-family' : 'Alegreya Sans SC'}}>Línguas que eu falo:</p>
           <KnowledgeLine>HTML</KnowledgeLine>
           <KnowledgeLine>CSS</KnowledgeLine>
@@ -22,7 +22,7 @@ function Expertise () {
           <KnowledgeLine>BackboneJS</KnowledgeLine>
           <KnowledgeLine>React</KnowledgeLine>
           <KnowledgeLine>Redux</KnowledgeLine>
-      </div>
+      </KnowledgeDiv>
     </ExpertiseDiv>
   )
 }

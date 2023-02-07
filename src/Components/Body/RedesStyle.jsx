@@ -16,7 +16,6 @@ export const Img = styled.img`
     transition: transform 1s
   }
 `
-
 export const P = styled.p`
   color: #c90de2;
   font-family: 'Aclonica';

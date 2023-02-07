@@ -9,5 +9,9 @@ export const Container = styled.div`
     #001a33 30%,
     #001a33 100%
   );
+  @media (max-width: 768px) {
+    display: block;
+    width: 100%;
+  }
   font-family: 'Trebuchet MS', sans-serif;
 `

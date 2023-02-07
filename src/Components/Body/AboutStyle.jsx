@@ -5,6 +5,9 @@ export const AboutDiv = styled.div`
   display: flex;
   margin-top: 100px;
   width: 100%;
+  @media (max-width: 768px) {
+    margin-top: 150px;
+  }
 `
 
 export const Info = styled.div`
@@ -15,14 +18,24 @@ export const Info = styled.div`
   padding: 0 0 0 100px;
   text-align: justify;
   flex-grow: 2;
+  @media (max-width: 768px) {
+    font-size: 24px;
+    padding:  0 0 0 70px;
+    min-width: 60%;
+  }
 `
 
 export const Citation = styled.div`
   color: white;
   font-size: 30px;
-  padding: 0 70px 0 200px;
+  padding: 0 70px 0 100px;
   opacity: 0.7;
-  width: 90%;
+
+  @media (max-width: 768px) {
+    font-size: 22px;
+    max-width: 30%;
+    padding: 0 20px 0 100px;
+  }
 `
 
 export const Quotes = styled.span`
