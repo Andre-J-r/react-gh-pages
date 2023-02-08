@@ -53,6 +53,22 @@ export const HoveredMessage = styled.p`
   left: 210px;
   top: 110px;
   z-index: 5;
+
+  @media (max-width: 768px) {
+    left: 105px;
+    top: 50px;
+  }
+`
+export const HoveredLink = styled.a`
+  left: 150px;
+  top: 100px;
+  position: absolute;
+
+  @media (max-width: 768px) {
+    left: 20px;
+    top: 230px;
+  }
+
 `
 export const Description = styled.p`
   color: white;

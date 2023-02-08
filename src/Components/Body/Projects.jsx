@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import List from '../ListOfProjects'
 import Header from '../Header'
-import {Description, MacImg, External, Name, HoveredMessage, Picture, ProjectsContainer, Project, Title} from './ProjectsStyle'
+import {Description, MacImg, External, Name, HoveredMessage, Picture, ProjectsContainer, Project, Title, HoveredLink} from './ProjectsStyle'
 
 function Projects () {
   const [isHovered, setIsHovered] = useState(false)
@@ -23,7 +23,7 @@ function Projects () {
                   <React.Fragment>
                   <HoveredMessage>Visit the website</HoveredMessage>
                   <Picture style={{'opacity': '0.2'}} src={item.picture} alt="cpfl" onMouseLeave={() => setIsHovered(false)}/>
-                  <a href={item.adress} target="_blank"><External style={{'left': '280px', 'top' : '170px', 'position' : 'absolute'}} src="external.png" alt="external"/></a>
+                  <HoveredLink href={item.adress} target="_blank"><External src="external.png" alt="external"/></HoveredLink>
                   </React.Fragment>
                 )
               }
