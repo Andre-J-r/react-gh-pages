@@ -11,7 +11,7 @@ function About () {
       Olá, me chamo <span style={{'color': '#64ffda'}}>André Gomes</span>, sou um desenvolvedor de software front end e construo websites e 
       aplicativos que são peças fundamentais no sucesso e engajamento de produtos e serviços em um mundo
       cada vez mais digital.
-      <P>CLique aqui pra ver alguns de meus <Link to='/projects' style={{ 'textDecoration': 'none'}}><ProjectsLink>Projetos.</ProjectsLink></Link></P>
+      <P>CLique <Link to='/react-gh-pages/projects' style={{ 'textDecoration': 'none'}}><ProjectsLink>aqui </ProjectsLink></Link> para ver alguns de meus Projetos.</P>
     </Info>
     <Citation>
       <Quotes style={{'height':'10px'}}>"</Quotes>

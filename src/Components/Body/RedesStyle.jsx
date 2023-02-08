@@ -12,8 +12,8 @@ export const RedesContainer = styled.div`
 `
 export const Img = styled.img`
   margin: 30px 30px;
-  height: 25%;
-  width: 100%;
+  height: 70px;
+  width: 70px;
 
   &:hover{
     transform: scale(2);
@@ -21,6 +21,8 @@ export const Img = styled.img`
   }
 
   @media (max-width: 768px) {
+    height: 25%
+    width: 100%;
     margin: 0;
   }
 `

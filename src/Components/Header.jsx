@@ -8,7 +8,7 @@ function Header () {
   return (
     <Head>
       <Profile src='profile.jpeg'></Profile>
-      <Name>André Gomes</Name>
+      <HashLink to='/react-gh-pages' style={{'text-decoration':'none'}} ><Name>André Gomes</Name></HashLink>
       <Navigation>
        <a href='/react-gh-pages/#experiência' style={{'text-decoration':'none'}}> <Tags>Experiência</Tags></a>
        <HashLink to ='/react-gh-pages/projects' style={{'text-decoration':'none'}}><Tags>Projetos</Tags></HashLink>
