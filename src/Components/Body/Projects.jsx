@@ -28,7 +28,10 @@ function Projects () {
                 )
               }
               <a href={item.adress} target="_blank"><External src="external.png" alt="external"/></a>
-              <Description>{item.description}</Description>
+              <div style={{'margin': '20px 20px'}}>
+                <Description>{item.description}</Description>
+              </div>
+              
             </Project>
           })
         }

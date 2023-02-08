@@ -9,7 +9,7 @@ export const AboutDiv = styled.div`
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
-    margin-top: 130px;
+    margin-top: 100px;
   }
 `
 

@@ -8,6 +8,11 @@ export const External = styled.img`
   width: 20px;
   height: 20px;
   z-index: 2;
+
+  @media (max-width: 768px) {
+    left: 170px;
+    top: -115px;
+  }
 `
 
 export const Name = styled.p`
@@ -19,9 +24,10 @@ export const MacImg = styled. img`
   height: 350px;
   width: 590px;
   z-index: 0;
+
   @media (max-width: 768px) {
-    height: 250px;
-    width: 440px;
+    height: 210px;
+    width: 330px;
   }
 `
 export const Picture = styled.img`
@@ -31,11 +37,12 @@ export const Picture = styled.img`
   width: 445px;
   position: relative;
   z-index: 1;
+
   @media (max-width: 768px) {
-    top: 20px;
-    left: 55px;
-    height: 210px;
-    width: 330px;
+    top: 12px;
+    left: 0;
+    height: 175px;
+    width: 250px;
   }
 `
 export const HoveredMessage = styled.p`
@@ -56,8 +63,11 @@ export const Description = styled.p`
   text-align: justify;
   margin: 120px 0 0 250px;
   width: 400px;
+
   @media (max-width: 768px) {
-    margin: 0 20px 0 190px;
+    margin: 30px 0 0 0;
+    font-size: 16px;
+    width: 100%;
   }
 `
 export const Project = styled.div`
@@ -66,8 +76,11 @@ export const Project = styled.div`
   margin-bottom: 400px;
   width: 100%;
   height: 100%;
+
   @media (max-width: 768px) {
-    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 100px 0;
   }
 `
 
@@ -77,6 +90,10 @@ export const ProjectsContainer = styled.div`
   margin-top: 50px;
   height: 100%;
   width: 100%;
+  
+  @media (max-width: 768px) {
+    margin-top: 80px;
+  }
 `
 
 export const Title = styled.p`
@@ -85,6 +102,6 @@ export const Title = styled.p`
   text-align: center;
 
   @media (max-width: 768px) {
-    margin-top: 150px;
+    margin-top: 80px;
   }
 `

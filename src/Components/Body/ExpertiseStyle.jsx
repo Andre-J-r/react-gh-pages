@@ -9,9 +9,11 @@ export const ExpertiseDiv = styled.div`
   justify-content: center;
   margin: 200px auto 270px;
   height: 470px;
+  position: relative;
 
   @media (max-width: 768px) {
     display: flex;
+    flex-direction: column;
     margin: 150px auto 100px;
     height: 100%;
     width: 95%;
@@ -29,7 +31,7 @@ export const Title = styled.p`
   @media (max-width: 768px) {
    margin: 50px 0 40px 20px;
    text-align: left;
-   font-size: 20px;
+   font-size: 5.2vw;
   }
 `
 export const Brain = styled.img`
@@ -42,8 +44,9 @@ export const Brain = styled.img`
   @media (max-width: 768px) {
     width: 50px;
     height: 50px;
-    left: 255px;
-    top: -73px;
+    left: 80%;
+    top: 3%;
+    position: absolute;
   }
 `
 export const Jobs = styled.div`
@@ -53,6 +56,8 @@ export const Jobs = styled.div`
 
   @media (max-width: 768px) {
     border: none;
+    padding: 0;
+    width: 100%;
   }
 `
 export const KnowledgeDiv = styled.div`
@@ -60,6 +65,7 @@ export const KnowledgeDiv = styled.div`
   margin : 0 0 0 70px;
   @media (max-width: 768px) {
     margin: 0 0 30px 0;
+    width: 100%;
   }
 `
 export const KnowledgeLine = styled.li`

@@ -22,7 +22,7 @@ export const Name = styled.span`
   margin-left: 30px;
   @media (max-width: 768px) {
     margin-left: 40px;
-    font-size: 28px;
+    font-size: 7vw;
   }
 `
 export const Profile = styled.img`
@@ -45,9 +45,9 @@ export const Navigation = styled.div`
   @media (max-width: 768px) {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     margin: 70px 0 0 0;
-    font-size: 12px;
+    font-size: 3.5vw;
   }
 `
 export const Tags = styled.span`
@@ -64,6 +64,7 @@ export const Tags = styled.span`
   @media (max-width: 768px) {
     display: flex;
     justify-content: center;
+    letter-spacing: 0 ;
     width: 100%;
   }  
 `
