@@ -28,6 +28,7 @@ export const Info = styled.div`
     padding: 0;
     width: 70%;
     text-align: center;
+    opacity: 0.8;
   }
 `
 
@@ -41,6 +42,7 @@ export const Citation = styled.div`
     font-size: 14px;
     padding: 0 15px 0;
     margin-top: 50px;
+    opacity: 1;
   }
 `
 

@@ -23,6 +23,8 @@ export const Name = styled.span`
   @media (max-width: 768px) {
     margin-left: 40px;
     font-size: 7vw;
+    position: relative;
+    bottom: 20px;
   }
 `
 export const Profile = styled.img`
