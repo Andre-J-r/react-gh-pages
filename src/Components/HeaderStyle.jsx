@@ -45,6 +45,7 @@ export const Navigation = styled.div`
   @media (max-width: 768px) {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     margin: 70px 0 0 0;
     font-size: 12px;
   }

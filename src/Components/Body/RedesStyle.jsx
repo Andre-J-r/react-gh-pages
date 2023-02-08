@@ -8,7 +8,6 @@ export const RedesContainer = styled.div`
 
   @media (max-width: 768px) {
     height: 250px;
-    justify-content: space-around;
   }
 `
 export const Img = styled.img`
@@ -23,8 +22,6 @@ export const Img = styled.img`
 
   @media (max-width: 768px) {
     margin: 0;
-    height: 100%;
-    width: 100%;
   }
 `
 export const P = styled.p`

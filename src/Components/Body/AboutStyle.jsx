@@ -39,6 +39,7 @@ export const Citation = styled.div`
 
   @media (max-width: 768px) {
     font-size: 14px;
+    padding: 0 15px 0;
     margin-top: 50px;
   }
 `
@@ -46,7 +47,8 @@ export const Citation = styled.div`
 export const Quotes = styled.span`
   color: orange;
   display: block;
-  font-size: 60px;
+  font-size: 30px;
+  font-family: 'Trebuchet MS',sans-serif;
   height: 40px;
 `
 

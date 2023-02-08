@@ -14,7 +14,7 @@ export const ExpertiseDiv = styled.div`
     display: flex;
     margin: 150px auto 100px;
     height: 100%;
-    width: 100%;
+    width: 95%;
   }
 `
 export const Title = styled.p`
@@ -42,8 +42,8 @@ export const Brain = styled.img`
   @media (max-width: 768px) {
     width: 50px;
     height: 50px;
-    left: 250px;
-    top: -60px;
+    left: 255px;
+    top: -73px;
   }
 `
 export const Jobs = styled.div`

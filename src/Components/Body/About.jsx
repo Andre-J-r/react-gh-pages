@@ -11,12 +11,12 @@ function About () {
       Olá, me chamo <span style={{'color': '#64ffda'}}>André Gomes</span>, sou um desenvolvedor de software front end e construo websites e 
       aplicativos que são peças fundamentais no sucesso e engajamento de produtos e serviços em um mundo
       cada vez mais digital.
-      <P>CLique aqui pra ver alguns dos meus <Link to='/projects' style={{ 'textDecoration': 'none'}}><ProjectsLink>Projetos.</ProjectsLink></Link></P>
+      <P>CLique aqui pra ver alguns de meus <Link to='/projects' style={{ 'textDecoration': 'none'}}><ProjectsLink>Projetos.</ProjectsLink></Link></P>
     </Info>
     <Citation>
-      <Quotes>"</Quotes>
+      <Quotes style={{'height':'10px'}}>"</Quotes>
       <Text>Um código limpo, organizado e consiso equipara-se a beleza de um quadro de
-      Leonardo da Vinci ou uma composição de Mozart.<Quotes style={{'float': 'right'}}>"</Quotes>
+      Leonardo da Vinci ou uma composição de Mozart.<Quotes style={{'float': 'right', 'height':'10px'}}>"</Quotes>
       <p style={{'color' : '#64ffda', 'opacity': '0.7', 'padding-top':'10px'}}> -Eu mesmo</p>
       </Text>
       
