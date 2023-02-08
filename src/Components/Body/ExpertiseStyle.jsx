@@ -9,9 +9,12 @@ export const ExpertiseDiv = styled.div`
   justify-content: center;
   margin: 200px auto 270px;
   height: 470px;
-  width: 90%;
+
   @media (max-width: 768px) {
-    margin: 200px auto;
+    display: flex;
+    margin: 150px auto 100px;
+    height: 100%;
+    width: 100%;
   }
 `
 export const Title = styled.p`
@@ -21,7 +24,13 @@ export const Title = styled.p`
   font-family: 'Aclonica';
   font-size: 26px;
   text-align: center;
-  width: 100%
+  width: 100%;
+  
+  @media (max-width: 768px) {
+   margin: 50px 0 40px 20px;
+   text-align: left;
+   font-size: 20px;
+  }
 `
 export const Brain = styled.img`
   position: relative;
@@ -29,41 +38,52 @@ export const Brain = styled.img`
   top: 40px;
   width: 250px;
   height: 250px;
+
   @media (max-width: 768px) {
-    width: 150px;
-    height: 150px;
-    right: 0;
-    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    left: 250px;
+    top: -60px;
   }
 `
 export const Jobs = styled.div`
   align-text: center;
   border-right: 1px solid black;
   padding-right: 30px;
+
   @media (max-width: 768px) {
-    padding-right: 20px;
+    border: none;
   }
 `
 export const KnowledgeDiv = styled.div`
   text-align : center;
   margin : 0 0 0 70px;
   @media (max-width: 768px) {
-    margin-left: 20px;
+    margin: 0 0 30px 0;
   }
 `
 export const KnowledgeLine = styled.li`
-  font-size: 16px;
+  font-size: 12px;
   font-family: 'Allan';
   letter-spacing: 1px;
   line-height: 32px;
   list-style: none;
+
+  @media (max-width: 768px) {
+    
+  }
 `
 
 export const JobsLine = styled.p`
   color: black;
   font-family: 'Allan';
+  font-size: 14px;
   letter-spacing: 1px;
   line-height: 55px;
   list-style: none;
   opacity: 0.8;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 `

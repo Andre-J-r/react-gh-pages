@@ -5,8 +5,11 @@ export const AboutDiv = styled.div`
   display: flex;
   margin-top: 100px;
   width: 100%;
+
   @media (max-width: 768px) {
-    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
   }
 `
 
@@ -18,10 +21,13 @@ export const Info = styled.div`
   padding: 0 0 0 100px;
   text-align: justify;
   flex-grow: 2;
+  
+
   @media (max-width: 768px) {
-    font-size: 24px;
-    padding:  0 0 0 70px;
-    min-width: 60%;
+    font-size: 16px;
+    padding: 0;
+    width: 70%;
+    text-align: center;
   }
 `
 
@@ -32,9 +38,8 @@ export const Citation = styled.div`
   opacity: 0.7;
 
   @media (max-width: 768px) {
-    font-size: 22px;
-    max-width: 30%;
-    padding: 0 20px 0 100px;
+    font-size: 14px;
+    margin-top: 50px;
   }
 `
 

@@ -8,8 +8,9 @@ export const Head = styled.div`
   height: 100px;
 
   @media (max-width: 768px) {
+    display:block;
     margin-top: 50px;
-    height: 50px;
+    height: 100%;
     width: 100%;
   }
 `
@@ -20,8 +21,8 @@ export const Name = styled.span`
   letter-spacing: 1px;
   margin-left: 30px;
   @media (max-width: 768px) {
-    margin:0 40px 0 120px;
-    font-size: 26px;
+    margin-left: 40px;
+    font-size: 28px;
   }
 `
 export const Profile = styled.img`
@@ -29,20 +30,23 @@ export const Profile = styled.img`
   border-radius: 50%;
   color: orange;
   margin-left: 100px;
-  height: 100px;
-  width: 100px;
+  height: 60px;
+  width: 60px;
 
   @media (max-width: 768px) {
-    margin-left: 70px;
+    margin-left: 40px;
+    
   }
   
 `
 export const Navigation = styled.div`
   margin-left: 200px;
+  
   @media (max-width: 768px) {
     display: flex;
-    margin: 0 100px 0 50px;
-    font-size: 18px;
+    flex-wrap: wrap;
+    margin: 70px 0 0 0;
+    font-size: 12px;
   }
 `
 export const Tags = styled.span`
@@ -55,4 +59,10 @@ export const Tags = styled.span`
     color: #64ffda;
     cursor: pointer;
   }
+
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }  
 `
